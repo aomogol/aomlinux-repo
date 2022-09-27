@@ -1,9 +1,9 @@
 #!/bin/bash
 
-rm aomlinux_repo*
+rm aomlinux-repo*
 
 echo "repo-add"
-repo-add -n -R aomlinux_repo.db.tar.gz *.pkg.tar.zst
+repo-add -n -R aomlinux-repo.db.tar.gz *.pkg.tar.zst
 sleep 5
 
 
